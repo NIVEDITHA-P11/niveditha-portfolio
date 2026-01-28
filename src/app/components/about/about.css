@@ -1,0 +1,15 @@
+.section {
+  padding: 80px 10%;
+}
+
+h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+p {
+  max-width: 800px;
+  margin-bottom: 16px;
+  color: #555;
+  line-height: 1.6;
+}

@@ -1,0 +1,34 @@
+.experience-card {
+  max-width: 900px;
+  margin-top: 30px;
+  padding: 24px;
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 10px;
+}
+
+.experience-card h3 {
+  margin-bottom: 6px;
+}
+
+.company {
+  font-weight: 600;
+  color: #0d6efd;
+  margin-right: 10px;
+}
+
+.duration {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+ul {
+  margin-top: 16px;
+  padding-left: 18px;
+}
+
+li {
+  margin-bottom: 10px;
+  color: #555;
+  line-height: 1.5;
+}

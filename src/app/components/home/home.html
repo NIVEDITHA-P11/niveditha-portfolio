@@ -1,0 +1,134 @@
+<section id="home"
+  class="relative min-h-screen flex items-center pt-20 overflow-hidden bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-50 via-white to-white dark:from-slate-900 dark:via-slate-900 dark:to-slate-900">
+  <!-- background blobs -->
+  <div class="absolute top-20 right-0 -mr-24 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl"></div>
+  <div class="absolute bottom-0 left-0 -ml-24 w-80 h-80 bg-blue-400/10 rounded-full blur-3xl"></div>
+
+  <div class="max-w-7xl mx-auto px-6 w-full py-24 grid lg:grid-cols-2 gap-16 items-center">
+
+    <!-- LEFT CONTENT -->
+    <div class="space-y-8 text-center lg:text-left z-10">
+
+      <!-- badge -->
+      <div
+        class="inline-flex items-center gap-2 bg-blue-500/10 text-blue-600 px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest border border-blue-500/20">
+        <span class="relative flex h-2 w-2">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-500 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
+        </span>
+        Available for new projects
+      </div>
+
+      <!-- headline -->
+      <h1 class="text-5xl md:text-7xl font-bold tracking-tight text-slate-900 dark:text-white leading-[1.1]">
+        Hi, I’m Niveditha
+        <span class="inline-block animate-bounce">👋</span>
+      </h1>
+
+      <!-- role -->
+      <p class="text-2xl md:text-3xl font-semibold text-blue-600">
+        .NET Full Stack Developer
+      </p>
+
+      <!-- description -->
+      <p class="text-lg md:text-xl text-slate-600 dark:text-slate-400 max-w-xl mx-auto lg:mx-0 leading-relaxed">
+        I build scalable, user-friendly web applications using
+        <span class="font-medium text-slate-900 dark:text-white">Angular</span>
+        and
+        <span class="font-medium text-slate-900 dark:text-white">ASP.NET Core</span>.
+      </p>
+
+      <!-- buttons -->
+      <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+        <a href="assets/Niveditha.P-CV.pdf" download class="group relative px-8 py-4 bg-blue-600 text-white rounded-xl
+         font-semibold overflow-hidden shadow-lg shadow-blue-600/30
+         hover:shadow-blue-600/50 transition-all duration-300
+         w-full sm:w-auto text-center">
+          <span class="relative z-10 flex items-center justify-center gap-2">
+            Download Resume
+            <span class="material-symbols-outlined text-[20px]">download</span>
+          </span>
+
+          <div class="absolute inset-0 bg-gradient-to-r from-blue-700 to-blue-500
+           opacity-0 group-hover:opacity-100 transition-opacity">
+          </div>
+        </a>
+
+
+        <a class="px-8 py-4 bg-transparent border-2 border-slate-200 dark:border-slate-700 hover:border-blue-600 text-slate-700 dark:text-slate-300 hover:text-blue-600 rounded-xl font-semibold transition-all duration-300 w-full sm:w-auto text-center"
+          href="#projects">
+          View Projects →
+        </a>
+      </div>
+    </div>
+    <!-- RIGHT VISUAL (EXACT Stitch style) -->
+    <div class="relative flex lg:flex items-center justify-center
+            max-w-[520px] w-full mx-auto
+            mt-12 lg:mt-0">
+
+
+
+      <!-- Glow background -->
+      <div
+        class="absolute inset-0 bg-gradient-to-br from-blue-500/20 via-blue-400/10 to-transparent rounded-[2rem] blur-3xl">
+      </div>
+
+      <!-- Main image card -->
+      <div class="relative z-10 hidden lg:block rounded-3xl overflow-hidden
+     shadow-2xl border border-white/20 dark:border-slate-700/50
+     w-[280px] h-[320px]
+     sm:w-[320px] sm:h-[380px]
+     md:w-[360px] md:h-[420px]
+     lg:w-[400px] lg:h-[460px]
+     motion-safe:animate-[stitch-float_7s_ease-in-out_infinite]
+     will-change-transform">
+
+
+
+        <img src="/assets/hero-workspace.jpg" alt="Developer workspace"
+          class="w-full h-full object-cover dark:opacity-90" />
+
+      </div>
+
+
+      <!-- TOP RIGHT FLOATING CARD -->
+      <div
+        class="absolute -top-6 -right-6 z-20 hidden lg:block bg-white dark:bg-slate-800 rounded-xl shadow-xl border border-slate-100 dark:border-slate-700 p-4 flex items-center gap-3">
+
+        <div class="w-10 h-10 rounded-lg bg-blue-500/10 flex items-center justify-center">
+          <span class="material-symbols-outlined text-blue-600">
+            analytics
+          </span>
+        </div>
+
+        <div>
+          <div class="text-[10px] uppercase font-bold text-slate-400">
+            System Performance
+          </div>
+          <div class="text-lg font-bold text-slate-900 dark:text-white">
+            99.9% Up
+          </div>
+        </div>
+      </div>
+
+      <!-- BOTTOM LEFT FLOATING CODE CARD -->
+      <div
+        class="absolute -bottom-6 -left-6 z-20 hidden lg:block  bg-white dark:bg-slate-800 rounded-xl shadow-xl border border-slate-100 dark:border-slate-700 p-4 font-mono text-xs text-slate-500 dark:text-slate-400">
+
+        <div class="flex gap-2 mb-2">
+          <span class="w-3 h-3 rounded-full bg-red-400"></span>
+          <span class="w-3 h-3 rounded-full bg-yellow-400"></span>
+          <span class="w-3 h-3 rounded-full bg-green-400"></span>
+        </div>
+
+        <code>
+      [HttpGet]<br />
+      public async Task&lt;IActionResult&gt; Get() &#123; ... &#125;
+    </code>
+      </div>
+
+    </div>
+  </div>
+
+
+</section>

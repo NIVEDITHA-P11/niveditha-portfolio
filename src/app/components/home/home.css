@@ -1,0 +1,87 @@
+.hero {
+  min-height: 100vh;
+  padding: 120px 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  background: radial-gradient(circle at top,
+    #eaf2ff,
+    transparent 60%);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #e0edff;
+  color: #2563eb;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  width: fit-content;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background: #2563eb;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  color: #2563eb;
+  font-size: 1.6rem;
+}
+
+p {
+  max-width: 640px;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.actions {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 14px 26px;
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.primary {
+  background: #2563eb;
+  color: white;
+}
+
+.outline {
+  border: 2px solid #ddd;
+  color: #f8f8f8;
+}
+.dark {
+  background: #0f172a;
+  color: #e5e7eb;
+}
+.hero {
+  min-height: calc(100vh - 80px);
+  padding: 80px 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
